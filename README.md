@@ -1,10 +1,5 @@
-# Customer_Churn_Prediction
-I have selected two datasets that are both focused on predicting churn. However, one dataset has more categorical attributes while the other has more numerical attributes. This presents an interesting opportunity to compare and contrast how different machine learning models perform on each dataset. By doing this, we can gain insights into which types of models are better suited for handling different types of data, and how we can optimize our models to achieve the best possible results. Ultimately, our goal is to build accurate and effective models for predicting churn.
-Here’s a comprehensive README file for your churn prediction project:
 
----
-
-# Customer_Churn_Prediction
+# Customer Churn Prediction
 
 ## 1. **Introduction**
 Customer churn prediction is a critical task for businesses aiming to retain customers and improve their service offerings. In this project, I explore the problem of customer churn using two distinct datasets. One dataset has more **categorical attributes**, while the other contains more **numerical attributes**. This allows for a comparative analysis of how different machine learning models perform when dealing with these different data types. 
