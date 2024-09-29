@@ -43,6 +43,8 @@ The project utilizes two datasets found on kaggle, both focused on customer chur
    - **Numerical-heavy Dataset**:
      - Applied **Standardization** to ensure all numerical features are on the same scale.
      - **Feature Engineering**: Created new features where applicable (e.g., interaction terms between different numerical attributes).
+    
+       
        ![image](https://github.com/user-attachments/assets/b4872e18-4cd6-4b64-9af8-2a5097617a1f)
        ![image](https://github.com/user-attachments/assets/826dae6f-227c-41ec-b4f2-eb2f18ac8f06)
 
@@ -66,8 +68,7 @@ The project utilizes two datasets found on kaggle, both focused on customer chur
    - **XGBoost**:
      - A powerful gradient-boosting algorithm known for handling both categorical and numerical data well.
      - Tuned parameters such as learning rate, tree depth, and number of estimators for improved performance.
-![image](https://github.com/user-attachments/assets/86c70423-4a9b-4f68-9d64-e422f651e5be)
-![image](https://github.com/user-attachments/assets/8890fa8e-98be-4b8e-b679-8cccf628485f)
+
 
 ## 7. **Results**
    - **Categorical-heavy Dataset**:
@@ -86,6 +87,9 @@ The project utilizes two datasets found on kaggle, both focused on customer chur
      - **Confusion Matrix**: Displays the performance of each model in terms of true positives, false positives, true negatives, and false negatives.
      - **ROC Curve**: Shows the trade-off between true positive rate and false positive rate, giving a visual understanding of model performance.
      - **Feature Importance**: For models like Random Forest and XGBoost, feature importance scores are provided to show which features contributed most to the prediction.
+    
+       ![image](https://github.com/user-attachments/assets/86c70423-4a9b-4f68-9d64-e422f651e5be)
+![image](https://github.com/user-attachments/assets/8890fa8e-98be-4b8e-b679-8cccf628485f)
 
 ## 9. **Conclusion**
    Through this project, we explored the impact of different data types (categorical vs. numerical) on machine learning models for churn prediction. Random Forest showed its strength in handling categorical-heavy datasets, while XGBoost excelled with numerical-heavy datasets. By optimizing each model and preprocessing the data appropriately, we were able to build high-performing churn prediction models.
